@@ -33,12 +33,14 @@ import rizviLogo from './assets/education_logo/rizvi_logo.jpeg';
 
 // Project Section Logo's
 import MovieLogo from './assets/work_logo/Movie.png';
-import PortfolioLogo from './assets/work_logo/Portfolio.png';
+import BasicPortfolioLogo from './assets/work_logo/BasicPortfolio.png';
 import LearningLogo from './assets/work_logo/Learning.png';
 import TodoLogo from './assets/work_logo/Todo.png';
 import chatLogo from './assets/work_logo/chat.png';
 import QuizAppLogo from './assets/work_logo/QuizApp.png';
 import SocialMediaLogo from './assets/work_logo/SocialMedia.png';
+import PortfolioWebsiteLogo from './assets/work_logo/PortfolioWebsite.png'
+import WeatherAppLogo from './assets/work_logo/WeatherApp.png'
 
 export const SkillsInfo = [
   {
@@ -174,18 +176,35 @@ export const SkillsInfo = [
       tags: ["React JS","tailwindcss" ,"Node.js", "express.js","mongodb","Validation"],
       github: "https://github.com/CodeBy-OM/Real-Chat-Now-App",
     },
-    {
+      {
       id: 2,
-      title: "Basic Interactive Portfolio",
+      title: "Social Media Dashboard",
+      description:
+          "A social scope dashboard that aggregates social metrics and content via APIs. Interactive widgets and filters surface insights on users, posts, and engagement.",
+      image: SocialMediaLogo,
+      tags: ["React JS","tailwindcss","Node.js","javascript","Api"],
+      github: "https://github.com/CodeBy-OM/Social-Media-Dashboard",
+    },
+      {
+      id: 3,
+      title: "Weather App",
+      description:
+          "A weather app built with React that shows current conditions and a 5-day forecast using the OpenWeatherMap API. Features responsive layout, location search, and smooth navigation.",
+      image: WeatherAppLogo,
+      tags: ["React JS", "OpenWeatherMap API", "CSS", "Fetch API"],
+      github: "https://github.com/CodeBy-OM/Weather_app",
+    },
+      {
+      id: 4,
+      title: "My Portfolio Website",
       description:
         "A personal portfolio built with React to showcase projects, skills, and contact info. Smooth navigation and fully responsive layouts across devices.", 
-
-      image: PortfolioLogo,
+      image: PortfolioWebsiteLogo,
       tags: ["React JS", "HTML", "CSS"],
-      github: "https://github.com/CodeBy-OM/Portfolio-Website",
+      github: "https://github.com/CodeBy-OM/Om-Portfolio",
     },
     {
-      id: 3,
+      id: 5,
       title: "E-Learning Website",
       description:
         "An E-learning site with structured course pages, lessons, and basic quizzes. Built with vanilla HTML/CSS/JS for clean design and quick loads.",
@@ -193,9 +212,8 @@ export const SkillsInfo = [
       tags: [ "HTML", "CSS", "JavaScript"],
       github: "https://github.com/CodeBy-OM/E-Learning-Platform",
     },
-    
     {
-      id: 4,
+      id: 6,
       title: "To Do List App",
       description:
          "A lightweight To-do List app to add, complete, and remove tasks with an intuitive interface. Focused on everyday productivity with a clean, minimal UI.",
@@ -204,7 +222,7 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Task-Reminder-Tool",
     },
     {
-      id: 5,
+      id: 7,
       title: "Interactive Quiz App",
       description:
          "A browser-based quiz app with multiple-choice questions, instant feedback, and score tracking. Responsive design and smooth transitions keep users engaged.",
@@ -213,12 +231,12 @@ export const SkillsInfo = [
       github: "https://github.com/CodeBy-OM/Interactive-quiz-app",
     },
     {
-      id: 6,
-      title: "Social Media Dashboard",
+      id: 8,
+      title: "Basic Interactive Portfolio",
       description:
-          "A MERN-stack dashboard that aggregates social metrics and content via APIs. Interactive widgets and filters surface insights on users, posts, and engagement.",
-      image: SocialMediaLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "tailwindcss","javascript","Api"],
-      github: "https://github.com/CodeBy-OM/Social-Media-Dashboard",
+        "A basic React portfolio to show projects, skills, and contact info, fully responsive",
+      image: BasicPortfolioLogo,
+      tags: ["React JS", "HTML", "CSS"],
+      github: "https://github.com/CodeBy-OM/Portfolio-Website",
     }
   ];  
